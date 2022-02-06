@@ -1,0 +1,75 @@
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* оформление логотипа */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    
+}
+.logo-style {
+    color: #2196F3;
+}
+
+/* оформление списка в хедере */
+.menu-elements {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+
+.mail {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-number {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+
+.menu-elements:hover,
+.menu-elements:focus{
+    color:  #2196F3;
+}
+
+.mail:hover,
+.mail:focus{
+    color:  #2196F3;
+}
+
+.contact-number:hover,
+.contact-number:focus{
+    color:  #2196F3;
+}
+/*Стили для index.html*/
+
+
+
+
+
+
+/*Стили для portfolio.html */
