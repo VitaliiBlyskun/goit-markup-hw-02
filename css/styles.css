@@ -41,6 +41,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 
 
@@ -63,7 +64,7 @@
 
 .menu-elements:hover,
 .menu-elements:focus{
-    color:  #2196F3;
+    color:  var(--accent-color);
 }
 
 .mail:hover,
