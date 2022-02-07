@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.header {
+    background-color: #FFFFFF;
+}
+
 /* оформление логотипа */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -22,6 +26,8 @@
 }
 
 /* оформление списка в хедере */
+
+
 .menu-elements {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -65,6 +71,125 @@
 .contact-number:focus{
     color:  #2196F3;
 }
+
+/* Оформление main */
+
+.hero-section {
+    background-color: #2F303A;
+}
+
+.modal-btn {
+    font-family: "Roboto", sans-serif;   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #2196F3;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 900;   
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.properties {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.work-description {
+    font-family: "Roboto", sans-serif; 
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.second-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-color {
+    background-color: #F5F4FA;
+}
+
+.about-team{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer-adress {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.74;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.logo-style-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts-footer {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-color {
+    background-color: #2F303A;
+}
+
 /*Стили для index.html*/
 
 
