@@ -1,3 +1,6 @@
+:root {
+--accent-color: #2196F3;
+}
 
 .list {
     list-style: none;
@@ -5,6 +8,11 @@
 
 .link {
     text-decoration: none;
+}
+
+.body-dominants {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #212121;
 }
 
 .header {
@@ -22,24 +30,21 @@
     
 }
 .logo-style {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* оформление списка в хедере */
 
 
 .menu-elements {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 
 
 .mail {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,7 +53,6 @@
 }
 
 .contact-number {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -64,12 +68,12 @@
 
 .mail:hover,
 .mail:focus{
-    color:  #2196F3;
+    color: var(--accent-color);
 }
 
 .contact-number:hover,
 .contact-number:focus{
-    color:  #2196F3;
+    color: var(--accent-color);
 }
 
 /* Оформление main */
@@ -78,8 +82,7 @@
     background-color: #2F303A;
 }
 
-.modal-btn {
-    font-family: "Roboto", sans-serif;   
+.modal-btn {  
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -87,18 +90,15 @@
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
-.main-title {
-    font-family: "Roboto", sans-serif; 
+.main-title { 
     font-weight: 900;   
     font-size: 44px;
     line-height: 1.36;
@@ -109,17 +109,14 @@
 }
 
 .properties {
-    font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 
 .work-description {
-    font-family: "Roboto", sans-serif; 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -127,23 +124,19 @@
 }
 
 .second-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .team {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .team-color {
@@ -151,7 +144,6 @@
 }
 
 .about-team{
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -160,7 +152,6 @@
 }
 
 .footer-adress {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 1.74;
@@ -169,7 +160,6 @@
 }
 
 .logo-style-footer{
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -178,8 +168,6 @@
 }
 
 .contacts-footer {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -190,11 +178,38 @@
     background-color: #2F303A;
 }
 
-/*Стили для index.html*/
+.backround-portfolio {
+    background-color: #FFFFFF;
+}
 
+.second-main-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
+.about-projects {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: #F5F4FA;
+}
 
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);   
+}
 
-
-/*Стили для portfolio.html */
