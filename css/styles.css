@@ -195,7 +195,7 @@ body{
 .about-projects {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 19;
+    line-height: 1.9;
     color: var(--description-color);
 }
 
